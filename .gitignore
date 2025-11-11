@@ -1,0 +1,116 @@
+# =============================================
+# OPERATING SYSTEM FILES
+# =============================================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# =============================================
+# IDE AND EDITOR FILES
+# =============================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =============================================
+# SECURITY AND SENSITIVE DATA
+# =============================================
+.env
+.env.local
+*.key
+*.pem
+*.cert
+config.local.py
+secrets.json
+
+# =============================================
+# PYTHON SPECIFIC
+# =============================================
+# Bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution and packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Package managers
+poetry.lock
+Pipfile.lock
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type checking
+.mypy_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# =============================================
+# DATA SCIENCE AND ML
+# =============================================
+/data/
+/datasets/
+/models/
+/checkpoints/
+*.pkl
+*.joblib
+
+# =============================================
+# NODE.JS (IF APPLICABLE)
+# =============================================
+node_modules/
+npm-debug.log*
+
+# =============================================
+# DOCUMENTATION
+# =============================================
+docs/_build/
+site/
+
+# =============================================
+# DOCKER
+# =============================================
+Dockerfile
+.dockerignore
+
+# =============================================
+# TEMPORARY AND CACHE FILES
+# =============================================
+.cache/
+*.log
+tmp/
+temp/
